@@ -25,13 +25,16 @@ section {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.um {
+.aviso {
     margin-bottom: 30px;
     font-weight: bold;
 }
 
-.dois {
-    margin-bottom: 5px;
+#nome,
+#data,
+#email,
+#senha {
+    margin-bottom: 15px;
 }
 
 input[type="text"],

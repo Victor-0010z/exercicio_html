@@ -9,30 +9,32 @@
 
     <body>
 
-        <header>
-            <h1>Faça seu cadastro:</h1>
-            <br>
-        </header>
+        <form>
+            <header>
+                <h1>Faça seu cadastro:</h1>
+                <br>
+            </header>
 
-        <section>
-            <p class="um">Preencha os campos:</p>
-            <p class="dois">Nome completo:</p>
-            <input type="text" placeholder="Seu nome">
-            <br>
-            <p class="dois">Data de nascimento:</p>
-            <input type="date">
-            <br>
-        </section>
+            <section>
+                <p class="aviso">Preencha os campos:</p>
+                <label id="nome" for="nome">Nome completo:</label>
+                <input type="text" placeholder="Seu nome" id="nome">
+                <br>
+                <label id="data" for="data">Data de nascimento:</label>
+                <input type="date" id="data">
+                <br>
+            </section>
 
-        <section>
-            <p class="um">Ultimos detalhes:</p>
-            <p class="dois">Email:</p>
-            <input type="email" placeholder="Seu email">
-            <p class="dois">Senha</p>
-            <input type="password" placeholder="Sua senha">
-            <br>
-        </section>
-        <input type="submit">
+            <section>
+                <p class="aviso">Ultimos detalhes:</p>
+                <label id="email" for="email">E-mail:</label>
+                <input type="email" placeholder="Seu email" id="email">
+                <label id="senha" for="senha">Senha:</label>
+                <input type="password" placeholder="Sua senha" id="senha">
+                <br>
+            </section>
+            <input type="submit">
+        </form>
 
     </body>
 
